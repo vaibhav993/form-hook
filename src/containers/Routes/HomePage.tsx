@@ -1,8 +1,12 @@
 import React from "react"
+import OrganizationsContainer from "../organizations/OrganizationsContainer"
 
 const HomePage : React.FC = () => {
     return (
-        <h2>HOME PAGE</h2>
+        <div>
+            <h2>HOME PAGE</h2>
+            <OrganizationsContainer />
+        </div>
     );
 }
 
